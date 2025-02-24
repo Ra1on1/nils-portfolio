@@ -13,13 +13,18 @@ export const About = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            About Me
+            Über mich
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-grey-300 mb-6">
-              Passionate devoloper with expertise in buidling scalable web
-              appliacations and creating innovative solutions.
+              In meiner bisherigen Laufbahn als Entwickler habe ich umfassende
+              Erfahrung mit verschiedenen Technologien gesammelt. Zu Beginn
+              entwickelte ich Software mit den Microsoft Foundation Classes und
+              C++, einschließlich der dazugehörigen Datenbankstrukturen. Später
+              erweiterte ich mein Wissen in C#, .NET und WPF. Nun möchte ich
+              meine Expertise in der Frontend-Entwicklung vertiefen und mich auf
+              React, HTML, CSS und JavaScript spezialisieren.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -57,46 +62,60 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 mb-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">📚Education</h3>
+              <h3 className="text-xl font-bold mb-4">📚Berufsschule</h3>
               <ul className="list-desc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science</strong> - XYZ Unviserity
-                  (2016-2020)
+                  <strong>
+                    {" "}
+                    Fachinformatiker Anwendungsentwicklung - TGBBZ1 (2017-2020)
+                  </strong>{" "}
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Clooud
-                  Computing...
+                  Grundlagen schaffen in C/C++ und SQL. Allgemeines Wissen in
+                  der Informatik angeeignet in Bereichen wie Entwicklung,
+                  Hardware, Netzwerke usw. Schreiben von Dokumentationen und
+                  Webentwicklung.
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">💼Work Experience</h3>
+              <h3 className="text-xl font-bold mb-4">💼Berufserfahrung</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Client Entwickler bei IT Krämer GmbH (2022 - 2023){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for could-based
-                    applications.
+                    Entwicklung von grafischen Oberflächen in WPF, der Logik vom
+                    Client von servereye (IT Monitoring Software) in C#,
+                    Anpassung hausinterner Software, arbeiten in gitlab, Visual
+                    Studio, .net 4.8 auf .net 6 migriert, Zusammenarbeit in 10
+                    Personen Team.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Full Stack Entwickler bei Orgasoft Kommunal GmbH (2020-2022){" "}
                   </h4>
                   <p>
-                    Assisted in buidling front-end components and integration
-                    REST APIs
+                    Entwicklung folgender Software in C/C++/Microsoft Foundation
+                    Classes (MFC): Dynamische Baumstrukturen, grafische
+                    Oberflächen, Logik von Liegenschaften Programm. Aufbau des
+                    Datenbankmodells für diese Programme.
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="text-center z-10 px-4">
+            <a href="#scroll-down" class="scroll-down text-blue-500">
+              ↓ Scroll Down ↓
+            </a>
           </div>
         </div>
       </RevealOnScroll>
