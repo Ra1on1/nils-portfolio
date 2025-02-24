@@ -7,6 +7,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background: #0a0a0a;
   color: #f3f4f6;
+  hyphens: auto;
 }
 
 @layer utilities {
@@ -46,4 +47,19 @@ body {
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.scroll-down {
+  display: inline-block;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
